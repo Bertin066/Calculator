@@ -79,10 +79,30 @@ body {
 .num-btn:hover {
     background-color: #ccc;
 }
-
-.equals {
-    grid-column: 4;
-    grid-row: 1 / 4;
+.del-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f30404;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.del-btn:hover{
+    background-color: #c13b3b;
+}
+.deci-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #706565;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.equal-btn {
+    grid-column: 4 ;
+    grid-row: 1 / 5;
     width: 60px;
     height: auto;
     border-radius: 30px;
@@ -92,4 +112,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
+}
+.equal-btn:hover{
+    background-color: #a16902;
 }
