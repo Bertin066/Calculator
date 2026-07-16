@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="display"></div>
+        <div id="display"></div>
         <div class="operations">
             <button class="op-btn">+</button>
             <button class="op-btn">−</button>
@@ -17,19 +17,19 @@
             <button class="op-btn">÷</button>
         </div>
         <div class="numbers">
-            <button class="num-btn">1</button>
-            <button class="num-btn">2</button>
-            <button class="num-btn">3</button>
-            <button class="num-btn">4</button>
-            <button class="num-btn">5</button>
-            <button class="num-btn">6</button>
-            <button class="num-btn">7</button>
-            <button class="num-btn">8</button>
-            <button class="num-btn">9</button>
-            <button class="del-btn">C</button>
-            <button class="num-btn">0</button>
-            <button class="deci-btn">.</button>
-            <button class="equal-btn">=</button>
+            <button onclick="displayNum('1')">1</button>
+            <button onclick="displayNum('2')">2</button>
+            <button onclick="displayNum('3')">3</button>
+            <button onclick="displayNum('4')">4</button>
+            <button onclick="displayNum('5')">5</button>
+            <button onclick="displayNum('6')">6</button>
+            <button onclick="displayNum('7')">7</button>
+            <button onclick="displayNum('8')">8</button>
+            <button onclick="displayNum('9')">9</button>
+            <button id="clear">C</button>
+            <button onclick="displayNum('0')">0</button>
+            <button id="decimal">.</button>
+            <button id="equal">=</button>
         </div>
     </div>
 </body>

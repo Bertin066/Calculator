@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 
-.display {
+#display {
     background-color: #555;
     color: white;
     font-size: 36px;
@@ -66,7 +66,7 @@ body {
     margin-bottom: 0;
 }
 
-.num-btn {
+button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -76,31 +76,25 @@ body {
     font-size: 18px;
 }
 
-.num-btn:hover {
+button:hover {
     background-color: #ccc;
 }
-.del-btn{
+#clear{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #f30404;
+    background-color: #ef0404e8;
     border: none;
     cursor: pointer;
     font-size: 18px;
 }
-.del-btn:hover{
-    background-color: #c13b3b;
+#clear:hover{
+    background-color: #f40505dc;
 }
-.deci-btn{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #706565;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
+#clear:active{
+    background-color: #8c0505;
 }
-.equal-btn {
+#equal{
     grid-column: 4 ;
     grid-row: 1 / 5;
     width: 60px;
@@ -113,6 +107,6 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-.equal-btn:hover{
+#equal:hover{
     background-color: #a16902;
 }
