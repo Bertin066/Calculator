@@ -91,9 +91,7 @@ button:hover {
 #clear:hover{
     background-color: #f40505dc;
 }
-#clear:active{
-    background-color: #8c0505;
-}
+
 #equal{
     grid-column: 4 ;
     grid-row: 1 / 5;
