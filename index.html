@@ -11,10 +11,10 @@
     <div class="calculator">
         <div id="display"></div>
         <div class="operations">
-            <button class="op-btn">+</button>
-            <button class="op-btn">−</button>
-            <button class="op-btn">×</button>
-            <button class="op-btn">÷</button>
+            <button onclick="displayNum('+')" class="op-btn">+</button>
+            <button onclick="displayNum('-')" class="op-btn">−</button>
+            <button onclick="displayNum('*')" class="op-btn">×</button>
+            <button onclick="displayNum('/')" class="op-btn">÷</button>
         </div>
         <div class="numbers">
             <button onclick="displayNum('1')">1</button>
@@ -28,7 +28,7 @@
             <button onclick="displayNum('9')">9</button>
             <button id="clear">C</button>
             <button onclick="displayNum('0')">0</button>
-            <button id="decimal">.</button>
+            <button onclick="displayNum('.')">.</button>
             <button id="equal">=</button>
         </div>
     </div>
